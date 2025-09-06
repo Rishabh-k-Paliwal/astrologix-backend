@@ -1,0 +1,50 @@
+{
+  "name": "astrology-backend",
+  "version": "1.0.0",
+  "description": "Astrology Consultancy Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@daily-co/daily-js": "^0.83.1",
+    "axios": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.40.0",
+    "cors": "^2.8.5",
+    "cron": "^2.4.4",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.15",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "razorpay": "^2.9.6",
+    "socket.io": "^4.7.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "astrology",
+    "consultation",
+    "booking",
+    "video-call"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
